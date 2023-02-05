@@ -1,15 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie Woodie</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+  <title>Document</title>
+
+  <style>
+    .course-container {
+      background-color: #f5eded;
+      height: 1000px;
+      position: relative;
+    }
+
+    .courses {
+      position: absolute;
+      font-size: 50px;
+      top: 50px;
+      left: 650px;
+      font-family: 'Nunito', sans-serif;
+
+    }
+
+    .course-card1 {
+
+      background-color: white;
+      position: relative;
+
+      margin-top: 150px;
+      margin-left: 110px;
+      padding: 5px;
+      display: inline-block;
+      width: 410px;
+      height: 400px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 1px 2px gray;
+    }
+
+    .course-card-img1 {
+      position: relative;
+      height: 210px;
+      width: 390px;
+      left: 10px;
+      top: 10px;
+
+    }
+  </style>
+
 </head>
+
 <body>
-     <div id="heading">
-        <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            😋 Foodie Woodie 😋</h1>
+  <div class="course-container">
+    <div class="courses">
+      Courses
     </div>
+
+
+    <div class="course-card1">
+      <img src="c.png" alt="c" class="course-card-img1">
+
+      <h3 class="course-card-title">C Programming</h3>
+      <div class="course-card-tagline">Learn C Programming from Scratch and Kickstart your career in Computer
+        Science</div>
+      <div class="course-card-ico-calendar-container"><img
+          src="/static/media/ico-calendar.a95ca9a552080f3b41b1eaf463dc08cb.svg" class="course-card-ico-calendar"
+          alt="Course Start Date"> Starting from 1st February 2023</div>
+      <div class="course-card-price-container fs-4"><span class="course-card-price">Only at ₹ 499 /-</span>
+      </div>
+      <hr>
+      <div class="course-card-know-more-btn-container"><a class="btn btn-dark" href="/courses/c">Know More</a>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
